@@ -8,7 +8,7 @@ const commando = require(`discord.js-commando`);
 
 const config = require('./config.json');
 const bot = new commando.Client({
-    commandPrefix:'5bc',
+    commandPrefix:'1bc',
     owner: config.id
 });
 
@@ -28,7 +28,7 @@ bot.on("ready", () => {
 
 
 bot.on("error", (error) => {
-    bot.login(config.token);
+    bot.login(process.env.BOT_TOKEN);
 });
 
 process.on('unhandledRejection', error => {
