@@ -20,7 +20,7 @@ const cmdsArray = [
 bot.on("ready", () => {
     clear();
     console.log('______');
-    bot.user.setActivity('5bc', { url: "https://github.com/alexlyee/massdm", type: 'PLAYING' })
+    bot.user.setActivity('KFC 1bc', { url: "https://github.com/alexlyee/massdm", type: 'PLAYING' })
         .then(presence => console.log(`Activity set to ${presence.game ? presence.game.name : 'none'}`))
         .catch(console.error);
     
