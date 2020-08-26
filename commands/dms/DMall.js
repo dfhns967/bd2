@@ -15,8 +15,6 @@ class DMallCommand extends commando.Command {
             memberName: 'dmall',
             description: 'Sends message provided to all members of the guild.',
             examples: [ `${config.prefix}dmall Hey everyone! This might reach more people than a mass ping...` ],
-            clientPermissions: ['ADMINISTRATOR'],
-            userPermissions: ['ADMINISTRATOR']
         });
     }
 
@@ -80,7 +78,7 @@ class DMallCommand extends commando.Command {
                 console.log(`Waited ${timeout}ms.\t|${i + 1}|\tDMing ${member.user.username}`);
             }
             try {
-                member.send(`${msg} \n #${timeout}`);
+                member.send(`"اكبر سيرفر للاوتاكوز حياك https://discord.gg/t6aF3Y" \n ${member}`);
                 successcount++;
             } catch (error) {
                 console.log(`Failed to send DM! ` + error)
