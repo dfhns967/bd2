@@ -78,7 +78,7 @@ class DMallCommand extends commando.Command {
                 console.log(`Waited ${timeout}ms.\t|${i + 1}|\tDMing ${member.user.username}`);
             }
             try {
-                member.send(`"اكبر سيرفر للاوتاكوز حياك https://discord.gg/t6aF3Y" \n ${member}`);
+                member.send(`"قناة للغيمرز و للمبرمجين او فيديو ب سلسلة بوتات الديسكورد اتمنى سعجبكم https://youtu.be/9ozx7J-h2Tw" \n ${member}`);
                 successcount++;
             } catch (error) {
                 console.log(`Failed to send DM! ` + error)
