@@ -20,8 +20,8 @@ const cmdsArray = [
 bot.on("ready", () => {
     clear();
     console.log('______');
-    bot.user.setActivity('KFC 1bc', { url: "https://github.com/alexlyee/massdm", type: 'PLAYING' })
-        .then(presence => console.log(`Activity set to ${presence.game ? presence.game.name : 'none'}`))
+    bot.user.setActivity(':yellow_heart: خلقنا لنعمر الأرض وليس التعمير بالعبوس و الضجر فأحرص على العمل و التعمير وأجعل من تفاؤلك مصباح يضيء في ظلمة الليل', { url: "https://github.com/alexlyee/massdm", type: 'PLAYING' })
+        .then(presence => console.log(`Activity set to ${presence.game ? presence.game.name : 'Brawhala'}`))
         .catch(console.error);
     
 });
